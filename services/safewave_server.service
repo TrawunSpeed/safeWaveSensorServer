@@ -1,0 +1,14 @@
+[Unit]
+Description=safewave_server service
+After=multi-user.target
+
+[Service]
+Type=simple
+User=rtecnica
+Restart=always
+RestartSec=2
+ExecStart=/home/rtecnica/SafeWave/safeWaveSensorServer/safewave/safewave_server
+TimeoutStopSec=1
+
+[Install]
+WantedBy=multi-user.target
