@@ -1,0 +1,17 @@
+/cmake-build-debug/
+/cmake-build-debug/*
+/cmake-build-debug/CMakeFiles/
+/cmake-build-debug/CMakeFiles/*
+/cmake-build-debug/CMakeFiles/CMakeTmp/
+/cmake-build-debug/CMakeFiles/CMakeTmp/*
+/build/
+/build/*
+/.idea/*
+/SEISREC-DEV/
+/SEISREC-DEV/*
+SEISREC-SERVER-config
+*.list
+*.tmp
+parameter
+CMakeLists.txt
+SEISREC-DEV/CMakeLists.txt
